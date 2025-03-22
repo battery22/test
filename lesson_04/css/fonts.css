@@ -9,7 +9,7 @@
 @font-face {
     font-family: 'Inter';
     src: url("../fonts/Inter-Medium.woff2");
-    font-style: medium;
+    font-style: normal;
     font-weight: 500;
     font-display: swap;
 }
@@ -17,7 +17,7 @@
 @font-face {
     font-family: 'Inter';
     src: url("../fonts/Inter-Bold.woff2");
-    font-style: bold;
+    font-style: normal;
     font-weight: 700;
     font-display: swap;
 }
