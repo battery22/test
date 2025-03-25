@@ -1,0 +1,98 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+.platform-wpapper {
+    max-width: 1050px;
+    padding: 112px 0;
+    margin: 0 auto;
+}
+
+.platform-text {
+    margin-bottom: 70px;
+}
+
+.platform-text p {
+    margin-bottom: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+.platform-text p+p {
+    font-family: "Circular Std", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.platform-text p+p+p {
+    font-family: "Circular Std", sans-serif;
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+/* -- */
+.platform-block {
+    overflow: hidden;
+}
+
+.block-items {
+    margin-right: -30px;
+    font-size: 0;
+}
+
+.item {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 30px;
+}
+
+.item>div {
+    background-color: #c18686;
+}
+
+.item span {
+    display: inline-block;
+    width: 50px;
+    height: 2px;
+    background-color: #E74040;
+}
+
+.text {
+    padding-top: 48px;
+}
+
+.block-content {
+    padding: 35px 40px;
+    font-size: 14px;
+    align-items: center;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+
+}
+
+.block-content img,
+.block-content p,
+.block-content span {
+    margin-bottom: 20px;
+}
+
+.block-content img {
+    width: 72px;
+    height: 72px;
+}
+
+.block-content img+p {
+    font-family: "Circular Std";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
